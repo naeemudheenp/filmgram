@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-import { useEffect,useState,setState } from 'react';
+
+import { useEffect,useState, } from 'react';
 import './App.css';
 import './css/main.css'
-import SearchBar from './searchBar';
+
 import NavBar from './navBar';
 import CardSingle from './card';
 
-var apiData;
 
-
-var sampleData={userId: 1, id: 1, title: 'delectus aut autem', completed: false};
 function App() {
 
 
