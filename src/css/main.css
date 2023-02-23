@@ -51,6 +51,10 @@
   align-items: center;
   background-color: rgb(23, 27, 55);
   padding: 5%;
+  transition: all 0.2s ease-in-out;
+}
+.cardSingle:hover {
+  transform: scale(1.1);
 }
 
 .cardSingle__img {

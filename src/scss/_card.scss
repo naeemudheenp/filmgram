@@ -16,6 +16,13 @@
     background-color: rgb(23,27,55);
 
     padding: 5%;
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1); 
+    }
+    
+
 
    
 }
