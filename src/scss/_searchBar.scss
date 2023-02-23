@@ -1,0 +1,35 @@
+@use 'globals';
+.searchBar{
+
+    color: white;
+
+    margin-top: 4vh;
+
+    display: flex;
+    flex-direction: row;
+
+    width:100vw;
+
+    justify-content: center;
+    align-items: center;
+
+    &__input input{
+        text-indent: 10px;
+        color: white;
+        border: none;
+
+        border-radius: 30px;
+
+        background-color: transparent;
+
+        border:0.5px solid  globals.$borderColor ;
+
+        min-height: 6vh;
+
+        min-width: 75vw;
+        
+
+    }
+    
+    
+}

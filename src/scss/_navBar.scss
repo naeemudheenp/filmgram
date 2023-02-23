@@ -1,0 +1,28 @@
+@import 'globals';
+.navBar{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(144, 144, 144);
+
+    padding-inline: 7%;
+
+
+}
+
+.navBar__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #041457;
+    border-radius: 50%;
+
+    min-height: 4vh;
+    min-width: 4vh;
+
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,1);
+-webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,1);
+-moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,1);
+}
